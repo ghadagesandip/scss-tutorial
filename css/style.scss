@@ -1,0 +1,27 @@
+@import "reset";
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+
+@mixin border-radius($radius){
+	-webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+          padding: 2px 10px;
+}
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+
+  #content {
+		background-color:gray;
+	}	
+
+	span.highlight{
+		background-color:red;
+		@include border-radius(10px);
+	}
+}
