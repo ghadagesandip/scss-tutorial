@@ -9,7 +9,7 @@ Requirements
 *Need to have ruby-gem installed*
 
 
-**Installation of css gem**
+**Installation of scss gem**
 
 - Use following command to install sass gem
 
